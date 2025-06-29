@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { ArticleService, Article } from '../../services/article.service';
+import { SEOService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-articles',
@@ -142,9 +143,15 @@ export class ArticlesComponent implements OnInit, OnDestroy {
   
   private destroy$ = new Subject<void>();
 
-  constructor(private articleService: ArticleService) {}
+  constructor(
+    private articleService: ArticleService,
+    private seoService: SEOService
+  ) {}
 
   ngOnInit(): void {
+    // Set SEO for articles page
+    this.seoService.setArticlesPageSEO();
+    
     this.categories = this.articleService.getCategories();
     this.loadArticles();
     this.loadCategoryCounts();
@@ -158,12 +165,33 @@ export class ArticlesComponent implements OnInit, OnDestroy {
   setActiveCategory(category: string): void {
     this.activeCategory = category;
     this.loadArticles();
+    
+    // Update SEO when category changes
+    this.updateCategorySEO(category);
   }
 
   onImageError(event: any): void {
     // Hide the broken image and show fallback background
     const imgElement = event.target as HTMLImageElement;
     imgElement.style.display = 'none';
+  }
+
+  private updateCategorySEO(category: string): void {
+    let title = 'Angular Artikel & Tutorials';
+    let description = 'Umfassende Sammlung von Angular Artikeln und Tutorials. Von Grundlagen bis zu fortgeschrittenen Themen - alles auf Deutsch.';
+    
+    if (category !== 'Alle') {
+      title = `${category} - Angular Artikel & Tutorials`;
+      description = `Entdecke ${category} Artikel und Tutorials auf Angular.de. Lerne ${category} mit praktischen Beispielen und Schritt-für-Schritt Anleitungen.`;
+    }
+
+    this.seoService.updateSEO({
+      title,
+      description,
+      keywords: `Angular ${category}, ${category} Tutorial, Angular Grundlagen, TypeScript`,
+      type: 'website',
+      url: `https://angular.de/artikel?category=${encodeURIComponent(category)}`
+    });
   }
 
   private loadArticles(): void {

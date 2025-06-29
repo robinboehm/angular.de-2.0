@@ -23,21 +23,24 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "prerender": true,
-              "ssr": {
-                "entry": "server.ts"
-              }
+              "prerender": true
             }
           },
           "options": {
-            "assets": ["src/favicon.ico", "src/assets"],
+            "assets": [
+              "src/favicon.ico", 
+              "src/assets",
+              "src/robots.txt"
+            ],
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "server": "src/main.server.ts",
             "outputPath": "dist/demo",
             "polyfills": ["zone.js"],
             "scripts": [],
             "styles": ["src/global_styles.css"],
-            "tsConfig": "tsconfig.app.json"
+            "tsConfig": "tsconfig.app.json",
+            "ssr": true
           }
         },
         "serve": {
@@ -60,7 +63,15 @@
               "/artikel",
               "/training",
               "/community",
-              "/ressourcen"
+              "/ressourcen",
+              "/artikel/2024-06-11-angular-18-die-renaissance-geht-weiter",
+              "/artikel/2024-05-02-angular-signal-inputs",
+              "/artikel/2023-12-10-angular-kurz-erklaert-signals",
+              "/artikel/2023-11-27-angular-17",
+              "/artikel/2020-03-30-angular-cypress-typescript-e2e-testing",
+              "/artikel/2016-05-27-angular2-observables",
+              "/artikel/2016-06-03-ionic2-tutorial-deutsch",
+              "/artikel/2014-03-23-angularjs-tutorial-deutsch"
             ]
           }
         }
