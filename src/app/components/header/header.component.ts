@@ -21,6 +21,15 @@ import { RouterModule } from '@angular/router';
               </div>
               <span class="text-xl font-bold text-gray-900">Angular.de</span>
             </a>
+            <div class="hidden lg:flex items-center ml-4 pl-4 border-l border-gray-300">
+              <span class="text-xs text-gray-500 mr-1">powered by</span>
+              <a href="https://workshops.de" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 class="text-xs font-semibold text-angular-red hover:underline">
+                workshops.de
+              </a>
+            </div>
           </div>
 
           <!-- Desktop Navigation -->

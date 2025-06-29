@@ -115,6 +115,69 @@ import { CommonModule } from '@angular/common';
       </div>
     </section>
 
+    <!-- Workshops.de Partnership Section -->
+    <section class="section-padding bg-gradient-to-br from-angular-red to-red-600 text-white">
+      <div class="container-max">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+              In Partnerschaft mit Workshops.de
+            </h2>
+            <p class="text-xl mb-6 text-red-100">
+              Angular.de arbeitet eng mit Workshops.de zusammen - Deutschlands führender 
+              Plattform für professionelle IT-Schulungen.
+            </p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start space-x-3">
+                <svg class="w-6 h-6 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-red-100">Über 15 Jahre Erfahrung in der IT-Weiterbildung</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <svg class="w-6 h-6 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-red-100">Zertifizierte Trainer mit Praxiserfahrung</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <svg class="w-6 h-6 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-red-100">Maßgeschneiderte Trainings für Teams und Unternehmen</span>
+              </li>
+              <li class="flex items-start space-x-3">
+                <svg class="w-6 h-6 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span class="text-red-100">Flexible Formate: Präsenz, Remote und Hybrid</span>
+              </li>
+            </ul>
+            <a href="https://workshops.de" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="btn-primary bg-white text-angular-red hover:bg-gray-100">
+              Mehr über Workshops.de erfahren
+            </a>
+          </div>
+          <div class="bg-white rounded-2xl p-8 shadow-xl">
+            <div class="text-center mb-6">
+              <div class="text-angular-red text-5xl font-bold mb-2">500+</div>
+              <div class="text-gray-600">Angular-Entwickler geschult</div>
+            </div>
+            <div class="border-t border-gray-200 pt-6 text-center mb-6">
+              <div class="text-angular-red text-5xl font-bold mb-2">98%</div>
+              <div class="text-gray-600">Weiterempfehlungsrate</div>
+            </div>
+            <div class="border-t border-gray-200 pt-6 text-center">
+              <div class="text-angular-red text-5xl font-bold mb-2">50+</div>
+              <div class="text-gray-600">Unternehmen vertrauen uns</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Testimonials -->
     <section class="section-padding bg-white">
       <div class="container-max">

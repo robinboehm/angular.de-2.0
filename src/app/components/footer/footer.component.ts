@@ -73,6 +73,27 @@ import { RouterModule } from '@angular/router';
           </div>
         </div>
 
+        <!-- Powered by Workshops.de Section -->
+        <div class="border-t border-gray-700 mt-8 pt-8">
+          <div class="text-center mb-8">
+            <p class="text-angular-gray text-sm mb-3">Eine Initiative von</p>
+            <a href="https://workshops.de" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="inline-flex items-center space-x-3 group">
+              <div class="w-10 h-10 bg-gradient-to-br from-angular-red to-red-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                </svg>
+              </div>
+              <div class="text-left">
+                <div class="text-white font-bold text-lg group-hover:text-angular-red transition-colors">Workshops.de</div>
+                <div class="text-angular-gray text-sm">Professionelle IT-Schulungen</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
         <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p class="text-angular-gray text-sm">
             © {{ currentYear }} Angular.de Community. Made with ❤️ for Angular developers.
