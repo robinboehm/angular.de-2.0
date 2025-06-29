@@ -78,8 +78,8 @@ import { RouterModule } from '@angular/router';
             © {{ currentYear }} Angular.de Community. Made with ❤️ for Angular developers.
           </p>
           <div class="flex space-x-6 mt-4 md:mt-0">
-            <a href="/impressum" class="text-angular-gray hover:text-white text-sm transition-colors">Impressum</a>
-            <a href="/datenschutz" class="text-angular-gray hover:text-white text-sm transition-colors">Datenschutz</a>
+            <a routerLink="/impressum" class="text-angular-gray hover:text-white text-sm transition-colors">Impressum</a>
+            <a routerLink="/datenschutz" class="text-angular-gray hover:text-white text-sm transition-colors">Datenschutz</a>
           </div>
         </div>
       </div>
