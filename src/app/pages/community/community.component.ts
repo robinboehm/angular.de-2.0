@@ -80,6 +80,92 @@ import { CommonModule } from '@angular/common';
       </div>
     </section>
 
+    <!-- NG-DE Conference Section -->
+    <section class="section-padding bg-gradient-to-br from-angular-red to-purple-600 text-white relative overflow-hidden">
+      <div class="absolute inset-0 bg-pattern opacity-10"></div>
+      <div class="container-max relative z-10">
+        <div class="text-center mb-12">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4">
+            NG-DE Conference
+          </h2>
+          <p class="text-xl md:text-2xl text-red-100 max-w-3xl mx-auto mb-8">
+            Unser Herzensprojekt: Die community-getriebene Angular-Konferenz in Deutschland
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Von uns für die Community</h3>
+            <p class="text-lg text-red-100 mb-6">
+              Die NG-DE ist mehr als nur eine Konferenz - sie ist das Herzstück der deutschen Angular-Community. 
+              Als Organisatoren von angular.de und Workshops.DE haben wir diese Konferenz ins Leben gerufen, 
+              um der Community eine Plattform für Austausch, Lernen und Networking zu bieten.
+            </p>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start">
+                <svg class="w-6 h-6 text-green-400 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>3 Tage voller Angular-Expertise (5.-7. November 2025)</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-6 h-6 text-green-400 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>20+ internationale Speaker und Angular-Experten</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-6 h-6 text-green-400 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>8 intensive Hands-on Workshops</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-6 h-6 text-green-400 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                <span>Networking mit 500+ Angular-Entwicklern</span>
+              </li>
+            </ul>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="https://ng-de.org" target="_blank" class="btn-primary bg-white text-angular-red hover:bg-gray-100 inline-block text-center">
+                Zur NG-DE Conference
+              </a>
+              <a href="/artikel/2025-01-15-ng-de-unser-community-projekt" class="btn-secondary border-white text-white hover:bg-white hover:text-angular-red inline-block text-center">
+                Mehr erfahren
+              </a>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="bg-white/10 backdrop-blur-sm rounded-lg p-8">
+              <div class="text-center mb-6">
+                <div class="text-5xl font-bold mb-2">NG-DE</div>
+                <div class="text-2xl">BERLIN 2025</div>
+              </div>
+              <div class="grid grid-cols-2 gap-4 text-center">
+                <div class="bg-white/10 rounded p-4">
+                  <div class="text-2xl font-bold">500+</div>
+                  <div class="text-sm">Teilnehmer</div>
+                </div>
+                <div class="bg-white/10 rounded p-4">
+                  <div class="text-2xl font-bold">20+</div>
+                  <div class="text-sm">Speaker</div>
+                </div>
+                <div class="bg-white/10 rounded p-4">
+                  <div class="text-2xl font-bold">3</div>
+                  <div class="text-sm">Tage</div>
+                </div>
+                <div class="bg-white/10 rounded p-4">
+                  <div class="text-2xl font-bold">8</div>
+                  <div class="text-sm">Workshops</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Upcoming Events -->
     <section class="section-padding bg-white">
       <div class="container-max">
@@ -242,12 +328,12 @@ export class CommunityComponent {
       type: 'Workshop'
     },
     {
-      title: 'AngularJS.DE Conference 2025',
-      description: 'Die größte deutsche Angular Konferenz mit internationalen Speakern und neuesten Trends.',
-      date: '15. März',
+      title: 'NG-DE Conference 2025',
+      description: 'Die community-getriebene Angular-Konferenz. 3 Tage voller Angular-Expertise, Workshops und Networking.',
+      date: '5.-7. Nov',
       time: '09:00 Uhr',
       location: 'Berlin',
-      attendees: '300',
+      attendees: '500+',
       type: 'Konferenz'
     },
     {
