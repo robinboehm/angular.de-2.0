@@ -32,6 +32,11 @@ export const routes: Routes = [
     title: 'Ressourcen - Angular.de'
   },
   {
+    path: 'team',
+    loadComponent: () => import('./pages/team/team.component').then(m => m.TeamComponent),
+    title: 'Team - Angular.de'
+  },
+  {
     path: '**',
     redirectTo: ''
   }

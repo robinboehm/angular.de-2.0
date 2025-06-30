@@ -45,6 +45,11 @@ import { RouterModule } from '@angular/router';
                class="text-gray-700 hover:text-angular-red transition-colors duration-200 py-2 border-b-2 border-transparent">
               Ressourcen
             </a>
+            <a routerLink="/team" 
+               routerLinkActive="text-angular-red border-b-2 border-angular-red"
+               class="text-gray-700 hover:text-angular-red transition-colors duration-200 py-2 border-b-2 border-transparent">
+              Team
+            </a>
           </div>
 
           <!-- Mobile Menu Button -->
@@ -87,6 +92,12 @@ import { RouterModule } from '@angular/router';
                routerLinkActive="text-angular-red bg-red-50"
                class="block px-4 py-3 rounded-lg text-gray-700 hover:text-angular-red hover:bg-gray-50 transition-colors">
               Ressourcen
+            </a>
+            <a routerLink="/team" 
+               (click)="closeMobileMenu()"
+               routerLinkActive="text-angular-red bg-red-50"
+               class="block px-4 py-3 rounded-lg text-gray-700 hover:text-angular-red hover:bg-gray-50 transition-colors">
+              Team
             </a>
           </div>
         </div>
