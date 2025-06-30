@@ -19,18 +19,18 @@ import { CommonModule } from '@angular/common';
           <p class="mb-6">
             Verantwortlich für die Datenverarbeitung ist:<br><br>
             Symetics GmbH<br>
-            Frankfurter Straße 39<br>
-            65189 Wiesbaden<br>
+            Lohmühlenstraße 65<br>
+            12435 Berlin<br>
             Deutschland<br><br>
-            Geschäftsführer: Robin Böhm, Gerd Jungbluth<br>
-            Telefon: +49 (0) 611 - 958 419 00<br>
-            E-Mail: <a href="mailto:datenschutz@angular.de" class="text-angular-red hover:underline">datenschutz@angular.de</a>
+            Vertreten durch: Robin Böhm<br>
+            Telefon: +49 30 / 75437336<br>
+            E-Mail: <a href="mailto:datenschutz@workshops.de" class="text-angular-red hover:underline">datenschutz@workshops.de</a>
           </p>
 
           <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Datenschutzbeauftragter</h2>
           <p class="mb-6">
             Bei Fragen zum Datenschutz wenden Sie sich bitte an:<br>
-            E-Mail: <a href="mailto:datenschutz@angular.de" class="text-angular-red hover:underline">datenschutz@angular.de</a>
+            E-Mail: <a href="mailto:datenschutz@workshops.de" class="text-angular-red hover:underline">datenschutz@workshops.de</a>
           </p>
 
           <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Datenverarbeitung beim Besuch unserer Website</h2>
@@ -120,11 +120,11 @@ import { CommonModule } from '@angular/common';
             Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren. Die für uns zuständige Aufsichtsbehörde ist:
           </p>
           <p class="mb-6">
-            Der Hessische Beauftragte für Datenschutz und Informationsfreiheit<br>
-            Postfach 3163<br>
-            65021 Wiesbaden<br>
-            Telefon: +49 611 1408-0<br>
-            E-Mail: <a href="mailto:poststelle@datenschutz.hessen.de" class="text-angular-red hover:underline">poststelle@datenschutz.hessen.de</a>
+            Berliner Beauftragte für Datenschutz und Informationsfreiheit<br>
+            Alt-Moabit 59-61<br>
+            10555 Berlin<br>
+            Telefon: +49 30 13889-0<br>
+            E-Mail: <a href="mailto:mailbox@datenschutz-berlin.de" class="text-angular-red hover:underline">mailbox@datenschutz-berlin.de</a>
           </p>
 
           <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">10. Datensicherheit</h2>

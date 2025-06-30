@@ -14,42 +14,41 @@ import { CommonModule } from '@angular/common';
           <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Angaben gemäß § 5 TMG</h2>
           <p class="mb-6">
             Symetics GmbH<br>
-            Frankfurter Straße 39<br>
-            65189 Wiesbaden<br>
+            Lohmühlenstraße 65<br>
+            12435 Berlin<br>
             Deutschland
           </p>
 
           <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Vertreten durch:</h3>
           <p class="mb-6">
-            Geschäftsführer: Robin Böhm, Gerd Jungbluth
+            Robin Böhm
           </p>
 
           <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Kontakt:</h3>
           <p class="mb-6">
-            Telefon: +49 (0) 611 - 958 419 00<br>
-            E-Mail: <a href="mailto:info@angular.de" class="text-angular-red hover:underline">info@angular.de</a><br>
+            Telefon: +49 30 / 75437336<br>
+            E-Mail: <a href="mailto:info@workshops.de" class="text-angular-red hover:underline">info@workshops.de</a><br>
             Web: <a href="https://angular.de" class="text-angular-red hover:underline">https://angular.de</a>
           </p>
 
           <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Registereintrag:</h3>
           <p class="mb-6">
             Eintragung im Handelsregister<br>
-            Registergericht: Amtsgericht Wiesbaden<br>
-            Registernummer: HRB 29336
+            Registergericht: Amtsgericht Charlottenburg (Berlin)<br>
+            Registernummer: HRB 203942 B
           </p>
 
           <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Umsatzsteuer-ID:</h3>
           <p class="mb-6">
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
-            DE311816639
+            DE295155649
           </p>
 
-          <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Inhaltlich Verantwortlicher gemäß § 55 Abs. 2 RStV:</h3>
+          <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h3>
           <p class="mb-6">
             Robin Böhm<br>
-            Symetics GmbH<br>
-            Frankfurter Straße 39<br>
-            65189 Wiesbaden
+            Lohmühlenstraße 65<br>
+            12435 Berlin
           </p>
 
           <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Haftungsausschluss</h2>
